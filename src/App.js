@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Counter from './components/Counter';
+import feedbackOptions from "./components/feedbackOptions/feedbackOptions";
 // import './App.css';
 
 class App extends Component {
@@ -12,7 +12,6 @@ class App extends Component {
   render() {
     return (
       <>
-      {Counter/}
         <h1>Please leave feedback</h1>;<button type="button">Good</button>
         <button type="button">Neutral</button>
         <button type="button">Bad</button>
