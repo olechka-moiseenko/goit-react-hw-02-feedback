@@ -1,0 +1,14 @@
+.button {
+  border-radius: 4px;
+  background-color: antiquewhite;
+  color: blueviolet;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  border-color: transparent;
+  border: 1px solid grey;
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}
